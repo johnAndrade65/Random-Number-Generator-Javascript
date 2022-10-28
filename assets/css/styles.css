@@ -83,3 +83,21 @@ body{
     font-size: 40px;
     font-weight: 600;
 }
+
+/*==MOBILE VERSION==*/
+@media (max-width:615px){
+    .container{
+        transform: scale(0.7);
+    }
+    .input-group{
+        transform: scale(0.7);
+    }
+}
+@media (max-width:400px){
+    .container{
+        transform: scale(0.6);
+    }
+    .input-group{
+        transform: scale(0.6);
+    }
+}
